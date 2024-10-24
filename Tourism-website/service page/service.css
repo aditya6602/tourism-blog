@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@300&family=Roboto+Slab&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    padding: 170px 100px;
+    font-size: 64px;
+    font-weight: bolder;
+    background-color: rgb(68, 219, 206);
+}
+
+.recent-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    padding: 30px;
+    font-size: 64px;
+    padding-bottom: 60px;
+    font-weight: bolder;
+}
+
+
+.recent {
+    padding: 30px 30px;
+}
+
+.trip-items {
+    display: flex;
+}
+
+.box {
+    background-color: rgb(114, 249, 249);
+    padding: 20px 20px;
+    margin: 20px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    box-shadow: 0px 21px 20px 0px rgb(0, 0, 0, 0.7);
+}
+
+.recent-subhead {
+    padding: 15px 15px 5px 15px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.recent-para {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 5px 50px;
+}
+
+.img-recent {
+    height: 250px;
+    width: 85%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.recent-head-below {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+@media only screen and (max-width: 1330px) {
+    .recent-para {
+        font-size: 15px;
+        padding: 5px 30px;
+    }
+
+    .recent-subhead {
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1030px) {
+    .recent-para {
+        font-size: 12px;
+        padding: 5px 7px;
+    }
+
+    .recent-subhead {
+        font-size: 20px;
+    }
+
+    .img-recent {
+        height: 150px;
+        width: 85%;
+        display: block;
+    }
+
+    .recent-head {
+        font-size: 46px;
+    }
+
+    .recent-head-below {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .trip-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        padding: 15px 5px;
+        margin: 15px 0px;
+    }
+
+    .service {
+        text-align: center;
+        font-size: 50px;
+        padding: 130px 100px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .recent-head {
+        text-align: center;
+    }
+
+    .recent-head-below {
+        text-align: center;
+    }
+}
